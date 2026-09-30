@@ -1,0 +1,22 @@
+[
+  {"id": "N01", "type": "normal", "message": "I was charged twice for my subscription and I want one of the payments refunded.", "expected_category": "Billing", "expected_priority": "High"},
+  {"id": "N02", "type": "normal", "message": "I forgot my password and the reset email never arrives.", "expected_category": "Account", "expected_priority": "Medium"},
+  {"id": "N03", "type": "normal", "message": "The app crashes every time I open the payments page. This is urgent, I have a deadline today!", "expected_category": "Technical", "expected_priority": "High"},
+  {"id": "N04", "type": "normal", "message": "Please refund my last order, the item arrived damaged.", "expected_category": "Refund", "expected_priority": "Medium"},
+  {"id": "N05", "type": "normal", "message": "How do I upgrade my plan to the premium tier?", "expected_category": "Subscription", "expected_priority": "Low"},
+  {"id": "N06", "type": "normal", "message": "What are your opening hours and how can I contact support?", "expected_category": "General Inquiry", "expected_priority": "Low"},
+  {"id": "N07", "type": "normal", "message": "Someone accessed my account and changed my email address. I think I was hacked.", "expected_category": "Account", "expected_priority": "High"},
+  {"id": "N08", "type": "normal", "message": "I want to cancel my subscription before it renews next week.", "expected_category": "Subscription", "expected_priority": "Medium"},
+  {"id": "N09", "type": "normal", "message": "My invoice shows the wrong amount for this month.", "expected_category": "Billing", "expected_priority": "Medium"},
+  {"id": "N10", "type": "normal", "message": "This is the third time I am asking for my refund and nobody has replied for 10 days!!!", "expected_category": "Refund", "expected_priority": "High"},
+  {"id": "N11", "type": "normal", "message": "The website is down for our whole team, we cannot access the dashboard. Production is affected.", "expected_category": "Technical", "expected_priority": "High"},
+  {"id": "N12", "type": "normal", "message": "Thanks for the great service, just a small suggestion: a dark mode would be nice.", "expected_category": "General Inquiry", "expected_priority": "Low"},
+  {"id": "E01", "type": "empty", "message": "", "expected_category": "Unclear", "expected_priority": "Low", "expected_valid": false},
+  {"id": "E02", "type": "empty", "message": "     \n\t  ", "expected_category": "Unclear", "expected_priority": "Low", "expected_valid": false},
+  {"id": "U01", "type": "unusual", "message": "help", "expected_category": "Unclear", "expected_priority": "Low"},
+  {"id": "U02", "type": "unusual", "message": "asdf qwer zxcv !!!!!!! ???", "expected_category": "Unclear", "expected_priority": "Low"},
+  {"id": "U03", "type": "unusual", "message": "REFUND MY MONEY NOW!!!!!!!!!", "expected_category": "Refund", "expected_priority": "High"},
+  {"id": "U04", "type": "unusual", "message": "hi i cant login pls halp", "expected_category": "Account", "expected_priority": "Medium"},
+  {"id": "U05", "type": "unusual", "message": "I have been a customer for years and honestly the whole experience lately has been frustrating. First the app was very slow, then it started showing an error whenever I tried to pay, and finally I noticed that I had been charged twice for the same month. I would like this fixed and one payment returned to me as soon as possible.", "expected_category": "Billing", "expected_priority": "High"},
+  {"id": "U06", "type": "unusual", "message": "Hello, I have something to tell you but I am not sure how to explain it.", "expected_category": "Unclear", "expected_priority": "Low"}
+]
